@@ -1,29 +1,15 @@
-<!--
-
-When uploading your plugin to github/gitlab
-start your repo name with "omegga-"
-
-example: https://github.com//omegga-omegga-tabletop
-
-Your plugin will be installed via omegga install gh:/omegga-tabletop
-
--->
-
 # omegga-tabletop
 
-A typed safe plugin for [omegga](https://github.com/brickadia-community/omegga).
-
-This is an auto-generated README file. Please change it before publishing your plugin!
-
-Be sure to edit the script in `setup.sh` to configure your plugin on install, or
-remove it entirely if it is unnecessary.
+A Quick plugin to be able to pick up and place blocks in Brickadia.
 
 ## Install
 
-`omegga install gh:/omegga-tabletop`
-
-_TODO: more steps...?_
+`omegga install gh:ZombieStriker/omegga-tabletop`
 
 ## Usage
 
-_TODO: include some usage information_
+Note: Only Plastic bricks can be picked up.
+
+* Click a Plastic Brick with asn interact component to pick it up
+* Click on either another plastic brick or another brick with the interact component to place.
+
